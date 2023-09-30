@@ -1,0 +1,9 @@
+.home-main{
+    background-image: url('/src/Images/hompage.png');
+    background-repeat: no-repeat; /* To prevent the image from repeating */
+    background-size: cover; /* To cover the entire div */
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    overflow: hidden;
+}

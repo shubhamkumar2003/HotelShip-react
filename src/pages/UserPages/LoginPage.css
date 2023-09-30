@@ -1,0 +1,155 @@
+.login-main{
+    background-image: url('/src/Images/Untitled.png');
+    background-repeat: no-repeat; /* To prevent the image from repeating */
+    background-size: cover; /* To cover the entire div */
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    
+}
+/* LoginPage.css */
+
+.loginpage {
+    background-color: #181616d4; /* Dark background similar to buttons */
+    padding: 30px;
+    border-radius: 10px;
+    width:300px;
+    height: fit-content;
+    margin: 50px auto; /* Center the login box */
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.label, p{
+    color: white; /* White text from navbar */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.login-h2{
+    color: white;
+}.red{
+    color: red;
+}
+
+/* Regular logininput style */
+.logininput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333; 
+    color: white;
+    border: 2px solid #023760;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Focus style: mimicking button appearance */
+.logininput:focus {
+    background-color: #023760;
+    color: white;
+    border: none;
+
+    /* Glow effect like the buttons */
+    position: relative;
+    z-index: 0;
+}
+
+.logininput:focus:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    animation: glowing-auth-button 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.logininput:focus:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+.submit-button {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #023760;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 10px;
+    display: block;  /* to make it full-width in the form */
+    width: 100%;
+}
+
+.submit-button:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    animation: glowing-auth-button 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+  
+.submit-button:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}

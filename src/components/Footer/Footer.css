@@ -1,0 +1,16 @@
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(35, 103, 44);
+    justify-content: space-evenly;
+}
+.foter-contact-heading{
+    margin-bottom: 42px;
+}
+.footer-icons{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}

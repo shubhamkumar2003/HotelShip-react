@@ -1,0 +1,104 @@
+/* .roomform
+{
+    width: 600px;
+    
+}
+
+.roomform-inputs
+{
+    text-shadow: aliceblue;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    text-align: center;
+    font-size: medium;
+
+    font-style: italic;
+    -webkit-text-stroke-width: thin;
+}
+
+.roomform-labels
+{
+    color: black;
+    width: 300px;
+} */
+
+
+/* RoomForm.css */
+
+.roomform-main {
+    font-family: Arial, sans-serif;
+   
+    background-image: url('/src/Images/hompage.png');
+    background-repeat: no-repeat; /* To prevent the image from repeating */
+    background-size: cover;
+     height: 200vh;
+}
+
+.roomform {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px 40px;
+    background-color: #000000d2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+}
+
+.roomform-h1 {
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.roomform-labels {
+    display: block;
+    font-size: 0.9em;
+    margin-top: 20px;
+    color: white;
+}
+
+.roomform-inputs {
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.roomform-inputs:focus {
+    border-color: #007BFF;
+}
+
+.roomform-submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.roomform-submit-button:hover {
+    background-color: #0056b3;
+}
+
+.roomform-submit-button:active {
+    background-color: #004391;
+}
+
+input[type="file"] {
+    font-size: 0.9em;
+    padding: 8px;
+}

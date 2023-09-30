@@ -1,0 +1,156 @@
+.signup-main{
+    background-image: url('/src/Images/Untitled.png');
+    background-repeat: no-repeat; /* To prevent the image from repeating */
+    background-size: cover; /* To cover the entire div */
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    
+}
+
+.signup {
+   background-color: rgba(16, 12, 12, 0.824);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto; 
+    box-shadow: 55px 0px 49px rgb(4 0 0);
+    display: flex;
+    float:left;
+    
+    justify-content: center;
+    margin-left: 10%;
+    border: 2px solid rgb(225, 232, 23);
+}
+.sup{
+    color: #ff0000;
+}
+
+label, p {
+    color: white; 
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Regular signupInput style */
+.signupInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333; 
+    color: white;
+    border: 2px solid #023760;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Focus style: mimicking button appearance */
+.signupInput:focus {
+    background-color: #023760;
+    color: white;
+    border: none;
+
+    /* Glow effect like the buttons */
+    position: relative;
+    z-index: 0;
+}
+
+.signupInput:focus:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    animation: glowing-auth-button 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.signupInput:focus:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.signupsubmit-button {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #023760;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 10px;
+    display: block;  /* to make it full-width in the form */
+    width: 100%;
+}
+
+.signupsubmit-button:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    animation: glowing-auth-button 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+  
+.signupsubmit-button:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,6 @@
+npm i axios;
+npm i react-router-dom
+npm install react-select react-datepicker
+npm install react-toastify
+npm i react-icon
+npm install react-icons

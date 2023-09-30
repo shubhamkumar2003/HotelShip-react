@@ -1,0 +1,60 @@
+.hotelform-main
+{
+   background-image: url('/src/Images/hompage.png');
+   background-repeat: no-repeat; /* To prevent the image from repeating */
+   background-size: cover;
+    height: 100vh;
+}
+.hotel-form-container{
+    background-color: rgba(1, 0, 0, 0.657);
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    /* display: flex; */
+    margin: auto;
+}
+
+.hotelform-inputs
+{
+    text-shadow: aliceblue;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    text-align: center;
+    font-size: medium;
+    /* color: black; */
+    font-style: italic;
+    -webkit-text-stroke-width: thin;
+}
+
+/* .hotelform-headings
+{
+    color: red;
+} */
+.hotelform-form{
+  width: 600px;
+
+}
+.hotelform-labels
+{
+    width: 300px;
+}
+.hotel-submit-button
+{
+    margin-bottom: 21px;
+    font-size: x-large;
+    text-align: center;
+    width: 130px;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hotel-headings
+{
+    font-size: x-large;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 26px;
+}

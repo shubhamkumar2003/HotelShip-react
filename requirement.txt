@@ -15,6 +15,8 @@ npm install react-icons
 7.Do compare and merge from forked repo
 //pushing into original repo
 8. git remote add upstream "url up stream"
+ or 
+ git push --set-upstream upstream
 //note: git remote -v :used to check the list of remote repo
 9.git pull upstream main
 OR 

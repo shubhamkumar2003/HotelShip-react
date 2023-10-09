@@ -1,0 +1,81 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.main{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow:wrap ;
+    width:100%;
+    border:solid 1px gray;
+    box-shadow:4px 4px 4px 4px #888888 ;
+    width:699px;
+    height: 236px;
+    margin: 10px;
+    background-color: white;
+    transition:2s 2s ease-out
+}
+.property-card{
+    border-color: gray;
+}
+img{
+    width:100%;
+}
+.img-box{
+    box-sizing: border-box;
+    margin: 0px;
+    display: block;
+    flex-basis: 33.33%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 33.33%;
+  
+    
+}
+.name-address
+{
+    box-sizing: border-box;
+    margin: 0px;
+    display: block;
+    flex-basis: 41.66%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 41.66%;  
+    border-right-style:solid;
+    border-right-width:1px;
+    border-color: gray;
+  
+}
+.price-rooms
+{ 
+    box-sizing: border-box;
+    margin: 0px;
+    display: block;
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 25%; 
+   
+}
+.hotel-name{
+    padding: 5px;
+
+}
+.room-avail{
+padding: 5px;
+
+}
+.amenities{
+padding: 5px;
+
+}
+.price_per_night
+{
+    padding: 5px;
+    text-align: end;
+}
+.state
+{
+    padding: 5px;
+}

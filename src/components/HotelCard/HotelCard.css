@@ -3,17 +3,24 @@
     padding:0px;
     box-sizing: border-box;
 }
+/* body{
+    height:100vh;
+    width:100vw;
+    display:grid;
+    align-items: center;
+} */
 .card-container{
-    align-items: center; 
-    
+    height:100vh;
+    width:100vw;
+    display:grid;
+    place-items: center;
 }
 .main{
     box-sizing: border-box;
     display: flex;
     flex-flow:wrap ;
     width:100%;
-    border:solid 1px gray;
-    border-radius: 20px;
+    border-radius: 25px;
     box-shadow:5px 5px 5px 5px #888888 ;
     width:699px;
     height: 236px;
@@ -26,17 +33,23 @@
     border-color: gray;
 }
 img{
+    height:182px;
     width:100%;
+   
+    
 }
 .img-box{
+   
     box-sizing: border-box;
     margin: 0px;
+    padding: 10px;
     display: block;
     flex-basis: 33.333%;
     -webkit-box-flex: 0;
     flex-grow: 0;
     max-width: 33.333%;
-  
+
+    
     
 }
 .name-address

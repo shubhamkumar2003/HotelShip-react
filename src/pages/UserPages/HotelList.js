@@ -14,7 +14,7 @@ export default function HotelList() {
       try{
        const response=await axios.get(`http://127.0.0.1:5000/search/${state}/${city}`);
        setData(response.data);
-        console.log(response.data);
+       // console.log(response.data);
       }
       catch(error)
       {

@@ -7,7 +7,7 @@ const HotelCard = ({info}) => {
     
     <div class="main property-card">
         <div class="img-box">
-        <img alt="" width={232} height={236}  src={`data:image/png;charset=utf-8;base64,${info?.image}`}></img>
+        <img alt="" src={`data:image/jpeg;base64,${info?.image}`}></img>
         </div>
        <div class="name-address property-info property-section-info">
        <h1 class="hotel-name">{info?.name}</h1>

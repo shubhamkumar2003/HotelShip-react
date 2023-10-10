@@ -6,3 +6,11 @@ npm i react-icon
 npm install react-icons
 
 
+**git commands **
+1. code set up locally -for first time
+->forked the repo 
+->git clone url
+->git add .
+->git commit -m "text-msg"
+->git push origin main
+

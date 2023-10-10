@@ -5,4 +5,42 @@ npm install react-toastify
 npm i react-icon
 npm install react-icons
 
+**Github work flow **
+1. fork the repo
+2.clone the forked repo
+3.make a new branch: git checkout -b new-branchName
+4.git add .
+5. git commit -m "text"
+6.git push //pushing newbranch in forked repo
+7.Do compare and merge from forked repo
+//pushing into original repo
+8. git remote add upstream "url up stream"
+ or 
+ git push --set-upstream upstream
+//note: git remote -v :used to check the list of remote repo
+9.git pull upstream main
+OR 
+git fetch --all 
+git merge upstream/main
+10.git push origin main
+11.git merge origin main 
+12. git push
 
+
+1. code set up locally -for first time
+->forked the repo 
+->git clone url
+->git add .
+->git commit -m "text-msg"
+->git push origin main
+
+2.Raise PR(Pull request)
+->click on pull request
+->select new pull request
+->write commit and pull
+->repo owner will merge the changes after comparison
+
+3.Get the changes in forked(cloned) repo from orginal repo 
+->git clone <forked-repository url>
+->git remote add upstream <original repo url>
+->git pull upstream main
